@@ -36,8 +36,8 @@
       "name": "phpmyadmin",
       "framework": "apache_php",
       "memory": {
-        "required": "64",
-        "recommended": "96"
+        "required": 64,
+        "recommended": 96
       },
       "http_protocol": "http_and_https",
       "framework_port_override": "",
@@ -58,7 +58,7 @@
       },
       "install": {
         "language": "sh",
-        "content": "#!/bin/bash\r\nmysql -h _Engines_System(mysql_host) -u $dbuser $dbname --password=$dbpasswd < /home/app/sql/create_tables.sql"
+        "content": "#!/bin/bash\r\nmysql -h _Engines_System(mysql_host) -u _Engines_Environment(dbuser) _Engines_Environment(dbname) --password=_Engines_Environment(dbpasswd) < /home/app/sql/create_tables.sql"
       },
       "post_install": {
         "language": "sh",
