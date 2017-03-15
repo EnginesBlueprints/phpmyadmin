@@ -58,7 +58,7 @@
       },
       "install": {
         "language": "sh",
-        "content": "#!/bin/bash\r\nmysql -h _Engines_System(mysql_host) -u _Engines_Environment(dbuser) _Engines_Environment(dbname) --password=_Engines_Environment(dbpasswd) < /home/app/sql/create_tables.sql\r\necho mysql -h _Engines_System(mysql_host) -u _Engines_Environment(dbuser) _Engines_Environment(dbname) --password=_Engines_Environment(dbpasswd)"
+        "content": "#!/bin/bash\r\nmysql -h _Engines_System(mysql_host) -u _Engines_Environment(dbuser)  --password=_Engines_Environment(dbpasswd)  _Engines_Environment(dbname) < /home/app/sql/create_tables.sql\r\necho mysql -h _Engines_System(mysql_host) -u _Engines_Environment(dbuser)  --password=_Engines_Environment(dbpasswd) _Engines_Environment(dbname)"
       },
       "post_install": {
         "language": "sh",
