@@ -27,14 +27,14 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2017-06-02 05:07:11 UTC"
+    "timestamp": "2017-06-13 07:19:30 UTC"
   },
   "software": {
     "base": {
       "name": "phpmyadmin",
       "framework": "apache_php",
       "deployment_type": "web",
-      "http_protocol": "http_and_https",
+      "http_protocol": "https_only",
       "memory": {
         "required": 64,
         "recommended": 96
