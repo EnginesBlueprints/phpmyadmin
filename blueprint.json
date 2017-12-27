@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2017-12-27T12:06:09+11:00"
+    "timestamp": "2017-12-27T16:41:27+11:00"
   },
   "software": {
     "base": {
@@ -79,7 +79,7 @@
         "type_path": "filesystem/local/filesystem",
         "variables": {
           "service_name": "_Engines_Builder(engine_name)",
-          "volume_src": " ",
+          "volume_src": "",
           "engine_path": "/home/fs/config",
           "permissions": "rw",
           "user": "_Engines_Builder(data_uid)",
