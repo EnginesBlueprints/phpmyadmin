@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2018-12-22T14:50:33+11:00"
+    "timestamp": "2020-09-01T17:29:51+10:00"
   },
   "software": {
     "base": {
@@ -80,7 +80,8 @@
           "db_username": "_Engines_Builder(engine_name)",
           "db_password": "_Engines_System(random(10))",
           "collation": "utf8_general_ci",
-          "full_access": "false"
+          "full_access": "false",
+          "char_set": "utf8"
         }
       }
     ],
@@ -100,6 +101,11 @@
     ],
     "database_seed": {
       "language": "text"
-    }
+    },
+    "file_write_permissions": [
+      {
+        "path": "/home/app/sql/create_tables.sql"
+      }
+    ]
   }
 }
