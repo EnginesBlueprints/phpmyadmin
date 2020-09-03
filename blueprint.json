@@ -63,11 +63,11 @@
     ],
     "installed_packages": [
       {
-        "name": "phpMyAdmin-4.7.8-all-languages.tar.gz",
-        "source_url": "http://files.phpmyadmin.net/phpMyAdmin/4.7.8/phpMyAdmin-4.7.8-all-languages.tar.gz",
+        "name": "phpMyAdmin-5.0.2-all-languages.tar.gz",
+        "source_url": "https://files.phpmyadmin.net/phpMyAdmin/5.0.2/phpMyAdmin-5.0.2-all-languages.tar.gz",
         "destination": "./",
         "extraction_command": "tar -xzpf",
-        "path_to_extracted": "phpMyAdmin-4.7.8-all-languages"
+        "path_to_extracted": "phpMyAdmin-5.0.2-all-languages"
       }
     ],
     "service_configurations": [
